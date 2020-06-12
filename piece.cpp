@@ -101,7 +101,7 @@ void Piece::clean(){
 }
 
 void Piece::setPic(){
-    QString str(":/pic/");
+    QString str(":/pic/pic");
     QString cstr = _color? "black_":"white_";
     str.append(cstr).append(_name).append(".png");
     QPixmap pic(str);
